@@ -1,0 +1,70 @@
+:root{
+    --platimum:  #e8e8e8;
+    --silver: #bfbfbf;
+    --gray: #96939b;
+    --violet: #564256;
+    --mango: #fc814a;
+
+}
+
+.tone-create{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    border: 2px solid var(--violet);
+    margin: auto;
+    padding: 30px;
+}
+.tone-create button{
+    grid-column: 1 / span 2;
+    border-radius: 40px;
+    background-color: var(--gray);
+    font-size: large;
+    margin: 30px;
+    height: 30px;
+    box-shadow: 2px 1px 3px var(--violet);
+}
+.tone-create label{
+    display: flex;
+    align-items: center;
+}
+.tone-create :nth-child(n):not(button){
+    margin: 5px 30px 5px 30px;
+    width: 250px;
+    height: 35px;
+    font-size: large;
+}
+div > .container-keys{
+    padding: 25px;
+}
+.container-keys{
+    display: grid;
+    grid-template-columns: repeat(4, calc(25%))
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+.keys{
+    border-radius: 20px;
+    height: 20px;
+    background: linear-gradient(-10deg, var(--gray),var(--silver), var(--violet));
+    border-left: 1px solid var(--mango);
+    margin: 5px 7px 5px 7px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+@media(max-width:927px){
+    .tone-create{
+        display: flex;
+        flex-direction: column;
+    }
+    .tone-create label{
+       display: none;
+    }
+    .tone-create :nth-child(n):not(button){
+        width: auto;
+        height: auto;
+    }
+
+}

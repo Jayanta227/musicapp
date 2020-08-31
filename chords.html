@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale finder</title>
+    <link rel="stylesheet" media="all" href="index.css" id="allm">
+    <link rel="stylesheet" media="(max-width:927px)" href="index_small.css" id="smallm">
+    <link rel="stylesheet" href="chords.css">
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="menu">
+            <img src="ham.png" alt="">
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="side" onclick="window.location.href='notes.html'">Notes</div>
+        <div class="side" onclick="window.location.href='chords.html'">Chords</div>
+        <div class="side" onclick="window.location.href='intervals.html'">intervals</div>
+    </div>
+    <div class="container">
+        <div class="chords-view">
+            <span>Select Scale</span>
+            <select name="scale" id="scale-select">
+                <option value="A">A</option>
+                <option value="A#">A#</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="C#">C#</option>
+                <option value="D">D</option>
+                <option value="D#">D#</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="F#">F#</option>
+                <option value="G">G</option>
+                <option value="G#">G#</option>
+            </select>
+            <span>
+                <select name="maj-min" id="maj-min">
+                    <option value="major">major</option>
+                    <option value="minor">minor</option>
+                </select>
+            </span>
+            <hr>
+            <div class="notes">
+                <span id="label-notes">Notes</span>
+            </div>
+            <div class="chords">
+                <span id="label-chords">Chords</span>
+            </div>
+        </div>
+        <!-- section for scale suggestions -->
+        <div class="scale-su">
+            <div class="by-notes">
+                
+            </div>
+            <div class="by-chords">vsdgsh</div>
+        </div>
+
+    </div>
+</body>
+<script src="/app.js"></script>
+<script src="index.js"></script>
+<script src="chords.js"></script>
+
+</html>

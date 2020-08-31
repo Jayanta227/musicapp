@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale finder</title>
+    <link rel="stylesheet" media="all" href="index.css" id="allm">
+    <link rel="stylesheet" media="screen and (max-width:927px)" href="index_small.css" id="smallm">
+    <link rel="stylesheet" href="intervals.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="menu">
+            <img src="ham.png" alt="">
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="side" onclick="window.location.href='notes.html'">Notes</div>
+        <div class="side" onclick="window.location.href='chords.html'">Chords</div>
+        <div class="side" onclick="window.location.href='intervals.html'">intervals</div>
+    </div>
+
+    <div class="container">
+    <!-- things added here -->
+    <div class="container-table">
+        <div class="row" style="background-color:var(--violet);color:var(--platinum);"><div>Semi tone</div>   <div>Name</div>   <div>Notation</div></div>
+
+        <div class="row"><div>0</div>   <div>perfect unison</div>   <div>P1</div></div>
+        <div class="row"><div>1</div>   <div>Minor Second<br> Augmented Unison</div>   <div>m2 <br> A1</div></div>
+        <div class="row"><div>2</div>   <div>Major Second <br> Diminished Third</div>   <div>M2 <br> D3</div></div>
+        <div class="row"><div>3</div>   <div>Minor Third <br> Augmented Second</div>   <div>m3 <br> A2</div></div>
+        <div class="row"><div>4</div>   <div>Major third <br> Diminished Fourth</div>   <div>M3 <br> d4</div></div>
+        <div class="row"><div>5</div>   <div>Perfect fourth <br> Augmented third</div>   <div>P4 <br> A3</div></div>
+        <div class="row"><div>6</div>   <div>Diminished fifth<br> Augmented fourth</div>   <div>d5 <br> A4</div></div>
+        <div class="row"><div>7</div>   <div>Perfect fifth <br> Diminished Sixth</div>   <div>P5 <br> d6</div></div>
+        <div class="row"><div>8</div>   <div>Minor sixth <br> Augmented fifth</div>   <div>m6 <br> A5</div></div>
+        <div class="row"><div>9</div>   <div>Major sixth <br> Diminished seventh</div>   <div>M6 <br> d7</div></div>
+        <div class="row"><div>10</div>   <div>Minor seventh <br> Augmented sixth</div>   <div>m7 <br> A6</div></div>
+        <div class="row"><div>11</div>   <div>Major seventh <br> Diminished octave</div>   <div>M7 <br> d8</div></div>
+        <div class="row"><div>12</div>   <div>Perfect octave <br> Augmented seventh</div>   <div>p8 <br> A7</div></div>    
+    </div>
+
+    <div class="practice">
+        <div class="wrap"><div class="practice-interval">P1<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">m2/A1<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">m2/d3<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">m3/A2<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">M3/d4<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">P4/A3<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">d5/A4<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">P5/d6<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">m6/A5<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">M6/d7<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">m7/A6<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">M7/d8<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+        <div class="wrap"><div class="practice-interval">P8/A7<div class="vis-effects"></div> </div> <div class="repeat">repeat</div></div>
+    </div>
+    <!-- things added here -->
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="index.js"></script>
+<script src="intervals.js"></script>
+
+</html>
