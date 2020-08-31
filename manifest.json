@@ -1,48 +1,48 @@
 {
     "name": "Scales and Chords",
     "short_name": "Music",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#FF0099",
     "theme_color": "#FFA224",
     "icons": [
         {
-            "src": "/icon/logo72.png",
+            "src": "icon/logo72.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src": "/icon/logo96.png",
+            "src": "icon/logo96.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "/icon/logo128.png",
+            "src": "icon/logo128.png",
             "type": "image/png",
             "sizes": "128x128"
         },
         {
-            "src": "/icon/logo144.png",
+            "src": "icon/logo144.png",
             "type": "image/png",
             "sizes": "144x144"
         },
         {
-            "src": "/icon/logo152.png",
+            "src": "icon/logo152.png",
             "type": "image/png",
             "sizes": "152x152"
         },
         {
-            "src": "/icon/logo192.png",
+            "src": "icon/logo192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/icon/logo384.png",
+            "src": "icon/logo384.png",
             "type": "image/png",
             "sizes": "384x384"
         },
         {
-            "src": "/icon/logo512.png",
+            "src": "icon/logo512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
