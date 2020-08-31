@@ -1,11 +1,11 @@
 const cacheName = 'static-sites'
 const assets = [
-    '/',
-    '/index.html', '/index.js', '/index.css', '/index_small.css',
-    '/chords.html', '/chords.js', '/chords.css',
-    '/intervals.html', '/intervals.js', '/intervals.css',
-    '/notes.html', '/notes.js', '/notes.css',
-    '/ham.png'
+    '/musicapp',
+    '/musicapp/index.html', '/musicapp/index.js', '/musicapp/index.css', '/musicapp/index_small.css',
+    '/musicapp/chords.html', '/musicapp/chords.js', '/musicapp/chords.css',
+    '/musicapp/intervals.html', '/musicapp/intervals.js', '/musicapp/intervals.css',
+    '/musicapp/notes.html', '/musicapp/notes.js', '/musicapp/notes.css',
+    '/musicapp/ham.png'
 ];
 
 self.addEventListener('install', evt => {
