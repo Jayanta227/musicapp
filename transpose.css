@@ -1,0 +1,23 @@
+.inout {
+    display: flex;
+    flex-direction: row;
+}
+.inout textarea{
+    width:100%;
+}
+
+.get-interval{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-interval input{
+    display: inline-block;
+}
+
+@media(max-width:927px) {
+    .inout {
+        flex-direction:column;
+    }
+}

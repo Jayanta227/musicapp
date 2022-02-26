@@ -5,7 +5,7 @@ const assets = [
     '/musicapp/chords.html', '/musicapp/chords.js', '/musicapp/chords.css',
     '/musicapp/intervals.html', '/musicapp/intervals.js', '/musicapp/intervals.css',
     '/musicapp/notes.html', '/musicapp/notes.js', '/musicapp/notes.css',
-    '/musicapp/ham.png'
+    '/musicapp/ham.png', '/musicapp/transpose.html', '/musicapp/transpose.js', '/musicapp/transpose.css'
 ];
 
 self.addEventListener('install', evt => {

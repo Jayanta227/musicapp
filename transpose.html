@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>scale finder</title>
+    <link rel="stylesheet" media="all" href="index.css" id="allm" />
+    <link rel="stylesheet" media="(max-width:927px)" href="index_small.css" id="smallm" />
+    <link rel="stylesheet" href="transpose.css" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="menu">
+            <img src="ham.png" alt="" />
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="side" onclick="window.location.href='notes.html'">Notes</div>
+        <div class="side" onclick="window.location.href='chords.html'">
+            Chords
+        </div>
+        <div class="side" onclick="window.location.href='intervals.html'">
+            intervals
+        </div>
+        <div class="side" onclick="window.location.href='transpose.html'">
+            Transpose
+        </div>
+    </div>
+    <div class="container">
+        <p class="info">
+            To get the transpose of the notes just type the notes in the first textbox and give the interval for the transposition in the inputfield at the bottom.
+            interval canbe any integer including negetive ones. eg 2, 3, -2
+        </p>
+        <div class="inout">
+            <textarea id="input" rows="15" placeholder="input the notes like
+f a c2 d2
+e f d# c2"></textarea>
+            <textarea id="output" rows="15"></textarea>
+        </div>
+        <div class="get-interval">
+            <input type="text" id="get-interval" placeholder="type interval" />
+            <input type="button" onclick="onconvert()" value="convert"/>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="index.js"></script>
+<script src="transpose.js"></script>
+
+</html>
